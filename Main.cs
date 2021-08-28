@@ -45,8 +45,6 @@ namespace PMXEConnectedComponentCentroid {
             }
         }
 
-
-
         static private void WriteCentroids(IPEPmd pmd, IPXPmx pmx) {
             var unionFind = new UnionFind(pmd.Vertex.Count);
 
